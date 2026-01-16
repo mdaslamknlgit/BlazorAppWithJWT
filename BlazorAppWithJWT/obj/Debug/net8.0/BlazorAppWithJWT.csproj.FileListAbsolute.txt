@@ -74,3 +74,4 @@ D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT\obj\Debug\net8.0\refint
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT\obj\Debug\net8.0\BlazorAppWithJWT.pdb
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT\obj\Debug\net8.0\BlazorAppWithJWT.genruntimeconfig.cache
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT\obj\Debug\net8.0\ref\BlazorAppWithJWT.dll
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT\obj\Debug\net8.0\BlazorAppWithJWT.sourcelink.json

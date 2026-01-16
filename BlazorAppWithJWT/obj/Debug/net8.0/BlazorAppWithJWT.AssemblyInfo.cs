@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorAppWithJWT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8d0159a0e91b5c7fecc955583bbbb65f46d7cdf")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorAppWithJWT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorAppWithJWT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

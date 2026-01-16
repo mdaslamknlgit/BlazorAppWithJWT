@@ -26,6 +26,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/MdAslam/Blazor/Code/BlazorAppWithJWT/BlazorAppWithJWT/Components/Pages/Contacts/CList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb250YWN0c1xDTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/MdAslam/Blazor/Code/BlazorAppWithJWT/BlazorAppWithJWT/Components/Pages/Contacts/ContactList.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb250YWN0c1xDb250YWN0TGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

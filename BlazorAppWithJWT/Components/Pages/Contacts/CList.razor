@@ -1,0 +1,81 @@
+﻿@page "/clist"
+@using BlazorAppWithJWT.Models
+@using BlazorAppWithJWT.Services
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
+@inherits BasePage
+@rendermode InteractiveServer
+
+@inject ContactService ContactService
+
+<h3>Contacts</h3>
+
+@if (contacts == null)
+{
+    <p>Loading...</p>
+}
+else if (contacts.Count == 0)
+{
+    <p>No contacts found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in contacts)
+            {
+                <tr>
+                    <td>@c.FirstName</td>
+                    <td>@c.LastName</td>
+                    <td>@c.Email</td>
+                    <td>@c.Phone</td>
+                    <td>
+                        <a href="/contacts/edit/@c.ContactId"
+                           class="btn btn-sm btn-secondary">
+                            Edit
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IReadOnlyList<ContactDto>? contacts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // READ is allowed here
+        if (!ComponentState.TryTakeFromJson(
+                nameof(contacts),
+                out List<ContactDto>? restored))
+        {
+            contacts = await ContactService.GetAllAsync();
+        }
+        else
+        {
+            contacts = restored;
+        }
+    }
+
+    protected override Task OnPersistingAsync()
+    {
+        // WRITE is allowed ONLY here
+        if (contacts != null)
+        {
+            ComponentState.PersistAsJson(nameof(contacts), contacts);
+        }
+
+        return Task.CompletedTask;
+    }
+}
