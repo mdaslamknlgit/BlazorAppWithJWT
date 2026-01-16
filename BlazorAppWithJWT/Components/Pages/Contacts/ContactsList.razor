@@ -1,0 +1,80 @@
+﻿@page "/contacts"
+@using BlazorAppWithJWT.Models
+@using BlazorAppWithJWT.Services
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
+@rendermode InteractiveServer
+@inject ContactsState State
+@inject ContactService ContactService
+
+<h3>Contacts</h3>
+
+@if (contacts == null)
+{
+    <p>Loading...</p>
+}
+else if (contacts.Count == 0)
+{
+    <p>No contacts found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in contacts)
+            {
+                <tr>
+                    <td>@c.FirstName</td>
+                    <td>@c.LastName</td>
+                    <td>@c.Email</td>
+                    <td>@c.Phone</td>
+                    <td>
+                        <a href="/contacts/edit/@c.ContactId"
+                           class="btn btn-sm btn-secondary">
+                            Edit
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IReadOnlyList<ContactDto>? contacts;
+    private bool _initialized;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        // await State.LoadAsync(ContactService);
+        // StateHasChanged();
+
+    }
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            contacts= await ContactService.GetAllAsync();
+            StateHasChanged();
+        }
+    }
+
+
+    private async Task LoadData()
+    {
+        contacts = await ContactService.GetAllAsync();
+        
+    }
+}

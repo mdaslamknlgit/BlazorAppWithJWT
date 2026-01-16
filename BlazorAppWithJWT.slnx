@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="BlazorAppWithJWT.AppHost/BlazorAppWithJWT.AppHost.csproj" />
+  <Project Path="BlazorAppWithJWT.ServiceDefaults/BlazorAppWithJWT.ServiceDefaults.csproj" />
+  <Project Path="BlazorAppWithJWT/BlazorAppWithJWT.csproj" />
+  <Project Path="ConsoleApp1/ConsoleApp1.csproj" />
+  <Project Path="MyCRM.Api/MyCRM.Api.csproj" />
+  <Project Path="MyCRM.Application/MyCRM.Application.csproj" />
+  <Project Path="MyCRM.Domain/MyCRM.Domain.csproj" />
+  <Project Path="MyCRM.Infrastructure/MyCRM.Infrastructure.csproj" />
+</Solution>

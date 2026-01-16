@@ -1,0 +1,12 @@
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\bin\Debug\net8.0\BlazorAppWithJWT.ServiceDefaults.deps.json
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\bin\Debug\net8.0\BlazorAppWithJWT.ServiceDefaults.dll
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\bin\Debug\net8.0\BlazorAppWithJWT.ServiceDefaults.pdb
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\BlazorAppWithJWT.ServiceDefaults.csproj.AssemblyReference.cache
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\BlazorAppWithJWT.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\BlazorAppWithJWT.ServiceDefaults.AssemblyInfoInputs.cache
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\BlazorAppWithJWT.ServiceDefaults.AssemblyInfo.cs
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\BlazorAppWithJWT.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\BlazorAppWithJWT.ServiceDefaults.dll
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\refint\BlazorAppWithJWT.ServiceDefaults.dll
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\BlazorAppWithJWT.ServiceDefaults.pdb
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\ref\BlazorAppWithJWT.ServiceDefaults.dll

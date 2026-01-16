@@ -1,0 +1,14 @@
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
