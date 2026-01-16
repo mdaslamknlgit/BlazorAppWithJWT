@@ -1,0 +1,34 @@
+﻿@using BlazorAppWithJWT.Models
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Contacts)
+        {
+            <tr>
+                <td>@c.FirstName</td>
+                <td>@c.LastName</td>
+                <td>@c.Email</td>
+                <td>@c.Phone</td>
+                <td>
+                    <button @onclick="() => OnEdit.InvokeAsync(c.ContactId)">
+                        Edit
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    [Parameter] public IReadOnlyList<ContactDto> Contacts { get; set; } = [];
+    [Parameter] public EventCallback<int> OnEdit { get; set; }
+}

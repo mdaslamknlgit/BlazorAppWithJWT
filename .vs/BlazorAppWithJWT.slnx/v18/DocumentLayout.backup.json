@@ -3,84 +3,24 @@
   "WorkspaceRootPath": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\pages\\contacts\\clist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\pages\\contacts\\clist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\pages\\contacts\\dumpcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\pages\\contacts\\dumpcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\pages\\contacts\\contactlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\pages\\contacts\\contactlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D26156DD-B055-FD36-20F1-C5991014AFA9}|MyCRM.Api\\MyCRM.Api.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\mycrm.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D26156DD-B055-FD36-20F1-C5991014AFA9}|MyCRM.Api\\MyCRM.Api.csproj|solutionrelative:mycrm.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\http\\apiauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\http\\apiauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D26156DD-B055-FD36-20F1-C5991014AFA9}|MyCRM.Api\\MyCRM.Api.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\mycrm.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D26156DD-B055-FD36-20F1-C5991014AFA9}|MyCRM.Api\\MyCRM.Api.csproj|solutionrelative:mycrm.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\pages\\contacts\\contactslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\pages\\contacts\\contactslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\contactsstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\contactsstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D26156DD-B055-FD36-20F1-C5991014AFA9}|MyCRM.Api\\MyCRM.Api.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\mycrm.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D26156DD-B055-FD36-20F1-C5991014AFA9}|MyCRM.Api\\MyCRM.Api.csproj|solutionrelative:mycrm.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\models\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\models\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\pages\\contacts\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\pages\\contacts\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\pages\\contacts\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\pages\\contacts\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\models\\contactformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\models\\contactformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|d:\\mdaslam\\blazor\\code\\blazorappwithjwt\\blazorappwithjwt\\components\\pages\\contacts\\smartcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06CEDA2-3C1E-A1EE-2838-7793CAEF2778}|BlazorAppWithJWT\\BlazorAppWithJWT.csproj|solutionrelative:blazorappwithjwt\\components\\pages\\contacts\\smartcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 463,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,66 +66,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCkAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T05:18:36.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CList.razor",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\CList.razor",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\CList.razor",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\CList.razor",
-              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\CList.razor",
-              "ViewState": "AgIAADIAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T05:16:01.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BasePage.cs",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\BasePage.cs",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Pages\\BasePage.cs",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\BasePage.cs",
-              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Pages\\BasePage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T05:14:39.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Home.razor",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Pages\\Home.razor",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T04:44:44.971Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ContactList.razor",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\ContactList.razor",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\ContactList.razor",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\ContactList.razor",
-              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\ContactList.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T04:38:26.16Z",
+              "Title": "ApiAuthorizationHandler.cs",
+              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Http\\ApiAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Http\\ApiAuthorizationHandler.cs",
+              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Http\\ApiAuthorizationHandler.cs",
+              "RelativeToolTip": "BlazorAppWithJWT\\Http\\ApiAuthorizationHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAjwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T11:45:48.242Z",
               "EditorCaption": ""
             },
             {
@@ -196,182 +85,49 @@
               "RelativeDocumentMoniker": "MyCRM.Api\\Controllers\\ContactsController.cs",
               "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\MyCRM.Api\\Controllers\\ContactsController.cs",
               "RelativeToolTip": "MyCRM.Api\\Controllers\\ContactsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAkwCMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAjwCMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T08:49:32.489Z",
+              "WhenOpened": "2026-01-16T11:45:48.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ApiAuthorizationHandler.cs",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Http\\ApiAuthorizationHandler.cs",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Http\\ApiAuthorizationHandler.cs",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Http\\ApiAuthorizationHandler.cs",
-              "RelativeToolTip": "BlazorAppWithJWT\\Http\\ApiAuthorizationHandler.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAjwBsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T08:45:20.461Z",
+              "Title": "SmartComponent.razor",
+              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\SmartComponent.razor",
+              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\SmartComponent.razor",
+              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\SmartComponent.razor",
+              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\SmartComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-16T11:38:36.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Services\\LoginService.cs",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Services\\LoginService.cs",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Services\\LoginService.cs",
-              "RelativeToolTip": "BlazorAppWithJWT\\Services\\LoginService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T06:27:16.828Z",
+              "DocumentIndex": 1,
+              "Title": "ContactList.razor",
+              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\ContactList.razor",
+              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\ContactList.razor",
+              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\ContactList.razor",
+              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\ContactList.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-16T04:38:26.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Program.cs",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Program.cs",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Program.cs",
-              "RelativeToolTip": "BlazorAppWithJWT\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T08:16:01.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DumpComponent.razor",
+              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\DumpComponent.razor",
+              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\DumpComponent.razor",
+              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\DumpComponent.razor",
+              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\DumpComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T08:59:28.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.razor",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Pages\\Login.razor",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Login.razor",
-              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Pages\\Login.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T04:40:41.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ContactsList.razor",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\ContactsList.razor",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\ContactsList.razor",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\ContactsList.razor",
-              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\ContactsList.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T08:16:28.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\MyCRM.Api\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "MyCRM.Api\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\MyCRM.Api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "MyCRM.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T09:04:41.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.razor",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\App.razor",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\App.razor",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\App.razor",
-              "RelativeToolTip": "BlazorAppWithJWT\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T08:59:38.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ContactsState.cs",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\ContactsState.cs",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\ContactsState.cs",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\ContactsState.cs",
-              "RelativeToolTip": "BlazorAppWithJWT\\ContactsState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T09:13:51.001Z",
+              "WhenOpened": "2026-01-16T11:39:26.465Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Create.razor",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\Create.razor",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\Create.razor",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\Create.razor",
-              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\Create.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAlwBgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T08:33:15.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ContactDto.cs",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Models\\ContactDto.cs",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Models\\ContactDto.cs",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Models\\ContactDto.cs",
-              "RelativeToolTip": "BlazorAppWithJWT\\Models\\ContactDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T08:15:12.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ContactService.cs",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Services\\ContactService.cs",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Services\\ContactService.cs",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Services\\ContactService.cs",
-              "RelativeToolTip": "BlazorAppWithJWT\\Services\\ContactService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIA4wB0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T08:50:06.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Edit.razor",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\Edit.razor",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\Edit.razor",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Components\\Pages\\Contacts\\Edit.razor",
-              "RelativeToolTip": "BlazorAppWithJWT\\Components\\Pages\\Contacts\\Edit.razor",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T08:33:30.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ContactFormModel.cs",
-              "DocumentMoniker": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Models\\ContactFormModel.cs",
-              "RelativeDocumentMoniker": "BlazorAppWithJWT\\Models\\ContactFormModel.cs",
-              "ToolTip": "D:\\MdAslam\\Blazor\\Code\\BlazorAppWithJWT\\BlazorAppWithJWT\\Models\\ContactFormModel.cs",
-              "RelativeToolTip": "BlazorAppWithJWT\\Models\\ContactFormModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T08:39:07.246Z"
             }
           ]
         },

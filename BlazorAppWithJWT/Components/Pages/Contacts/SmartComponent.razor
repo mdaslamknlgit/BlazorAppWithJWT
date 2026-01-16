@@ -1,0 +1,38 @@
+﻿@page "/smartcomponent"
+@attribute [Authorize]
+@rendermode InteractiveServer
+
+@using BlazorAppWithJWT.Models
+@using BlazorAppWithJWT.Services
+@using Microsoft.AspNetCore.Authorization
+
+@inject ContactService ContactService
+@inject NavigationManager Navigation
+@if (contacts == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <DumpComponent Contacts="contacts" OnEdit="Edit" />
+}
+
+@code {
+    private IReadOnlyList<ContactDto>? contacts;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            contacts = await ContactService.GetAllAsync();
+            StateHasChanged();
+        }
+    }
+
+    private void Edit(int id)
+    {
+        // navigation
+        Navigation.NavigateTo($"/contacts/edit/{id}");
+
+    }
+}
