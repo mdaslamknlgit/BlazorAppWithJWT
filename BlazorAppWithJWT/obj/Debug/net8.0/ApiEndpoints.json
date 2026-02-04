@@ -27,6 +27,32 @@
   },
   {
     "ContainingType": "BlazorAppWithJWT.Controllers.AuthLoginController",
+    "Method": "Login_Old",
+    "RelativePath": "auth/login_old",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "returnUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorAppWithJWT.Controllers.AuthLoginController",
     "Method": "Logout",
     "RelativePath": "auth/logout",
     "HttpMethod": "GET",

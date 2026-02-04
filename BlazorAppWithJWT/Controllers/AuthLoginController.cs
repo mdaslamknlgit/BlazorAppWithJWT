@@ -18,10 +18,10 @@ namespace BlazorAppWithJWT.Controllers
             _httpClientFactory = httpClientFactory;
         }
 
-        [HttpPost("login")]
+        [HttpPost("login_old")]
         [IgnoreAntiforgeryToken]
         [Consumes("application/x-www-form-urlencoded")]
-        public async Task<IActionResult> Login([FromForm] string username, [FromForm] string password, [FromForm] string? returnUrl)
+        public async Task<IActionResult> Login_Old([FromForm] string username, [FromForm] string password, [FromForm] string? returnUrl)
         {
             var client = _httpClientFactory.CreateClient();
 
@@ -31,7 +31,7 @@ namespace BlazorAppWithJWT.Controllers
 
             if (!response.IsSuccessStatusCode)
             {
-                return LocalRedirect("/login");
+                return LocalRedirect("/logina");
             }
 
             var result = await response.Content.ReadFromJsonAsync<LoginResponse>();
@@ -42,9 +42,7 @@ namespace BlazorAppWithJWT.Controllers
                 new Claim(ClaimTypes.Name, username)
             };
 
-            var identity = new ClaimsIdentity(
-                claims,
-                CookieAuthenticationDefaults.AuthenticationScheme);
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
             var principal = new ClaimsPrincipal(identity);
 
@@ -79,6 +77,66 @@ namespace BlazorAppWithJWT.Controllers
             //return LocalRedirect("/");
         }
 
+        [HttpPost("login")]
+        [IgnoreAntiforgeryToken]
+        [Consumes("application/x-www-form-urlencoded")]
+        public async Task<IActionResult> Login([FromForm] string username,[FromForm] string password,[FromForm] string? returnUrl)
+        {
+            var client = _httpClientFactory.CreateClient();
+
+            var response = await client.PostAsJsonAsync(
+                "https://localhost:7273/api/auth/login",
+                new { username, password });
+
+            if (!response.IsSuccessStatusCode)
+            {
+                return LocalRedirect("/logina");
+            }
+
+            var result = await response.Content.ReadFromJsonAsync<LoginResponse>();
+
+            // IMPORTANT: use username from API/token, not from UI
+            var userNameFromApi = username;
+            // if your LoginResponse has UserName, use:
+            // var userNameFromApi = result.UserName;
+
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, userNameFromApi)
+            };
+
+            var identity = new ClaimsIdentity(
+                claims,
+                CookieAuthenticationDefaults.AuthenticationScheme);
+
+            var principal = new ClaimsPrincipal(identity);
+
+            await HttpContext.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                principal,
+                new AuthenticationProperties
+                {
+                    IsPersistent = true
+                   
+                });
+
+            // Store JWT only for API calls
+            Response.Cookies.Append(
+                "auth_token",
+                result.AccessToken,
+                new CookieOptions
+                {
+                    HttpOnly = true,
+                    Secure = true,
+                    SameSite = SameSiteMode.Strict,
+                    Path = "/"
+                });
+
+            returnUrl ??= "/";
+            return LocalRedirect(returnUrl);
+        }
+
+
         [HttpGet("logout")]
         public async Task<IActionResult> Logout()
         {
@@ -87,7 +145,7 @@ namespace BlazorAppWithJWT.Controllers
 
             Response.Cookies.Delete("auth_token");
 
-            return LocalRedirect("/login");
+            return LocalRedirect("/logina");
         }
 
         private class LoginResponse

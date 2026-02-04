@@ -63,7 +63,7 @@ builder.Services.AddScoped<IContactRepository, ContactRepository>();
 
 
 builder.Services.AddDbContext<MyCrmDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
 
@@ -77,12 +77,18 @@ builder.Services
             ValidateAudience = true,
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
+
             ValidIssuer = builder.Configuration["Jwt:Issuer"],
             ValidAudience = builder.Configuration["Jwt:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
+                Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)
+            ),
+
+            NameClaimType = "unique_name",   // IMPORTANT
+            RoleClaimType = "roleid"         // optional, but correct
         };
     });
+
 
 
 var app = builder.Build();

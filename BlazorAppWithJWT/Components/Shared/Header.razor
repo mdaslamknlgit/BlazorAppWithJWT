@@ -1,0 +1,54 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="/">MyCRM</a>
+
+        <div class="d-flex align-items-center">
+            <AuthorizeView>
+                <Authorized>
+                    <span class="me-3 text-muted">
+                        Hello, @UserName
+                    </span>
+                    <a class="btn btn-outline-danger btn-sm" href="/auth/logout">
+                        Logout
+                    </a>
+                </Authorized>
+
+                <NotAuthorized>
+                    <a class="btn btn-outline-primary btn-sm" href="/logina">
+                        Login
+                    </a>
+                </NotAuthorized>
+            </AuthorizeView>
+        </div>
+    </div>
+</nav>
+
+@code {
+    private string? UserName;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        var userName = user.Identity.Name;
+
+        foreach (var claim in user.Claims)
+        {
+            Console.WriteLine($"{claim.Type} = {claim.Value}");
+        }
+
+
+
+        if (user.Identity?.IsAuthenticated == true)
+        {
+            UserName =
+                user.Identity.Name ??
+                user.FindFirst("sub")?.Value ??
+                user.FindFirst("name")?.Value;
+        }
+    }
+}

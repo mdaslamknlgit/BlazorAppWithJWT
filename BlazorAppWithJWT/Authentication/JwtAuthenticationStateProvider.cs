@@ -17,61 +17,30 @@ namespace BlazorAppWithJWT.Authentication
         {
             var httpContext = _httpContextAccessor.HttpContext;
 
-            if (httpContext == null)
+            if (httpContext == null || httpContext.User == null)
             {
                 return Task.FromResult(
                     new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity()))
                 );
             }
 
-            var token = httpContext.Request.Cookies["auth_token"];
-
-            if (string.IsNullOrWhiteSpace(token))
-            {
-                return Task.FromResult(
-                    new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity()))
-                );
-            }
-
-            // Minimal identity (token validation is API’s job)
-            var identity = new ClaimsIdentity(
-                new[]
-                {
-                    new Claim(ClaimTypes.Name, "AuthenticatedUser")
-                },
-                authenticationType: "jwt"
+            // IMPORTANT:
+            // Use the user created by Cookie Authentication
+            return Task.FromResult(
+                new AuthenticationState(httpContext.User)
             );
-
-            var user = new ClaimsPrincipal(identity);
-
-            return Task.FromResult(new AuthenticationState(user));
         }
 
-        // Called after successful login
-        public void MarkUserAsAuthenticated()
+        // OPTIONAL: keep only if you explicitly need to refresh UI
+        public void NotifyUserChanged()
         {
-            var identity = new ClaimsIdentity(
-                new[]
-                {
-                    new Claim(ClaimTypes.Name, "AuthenticatedUser")
-                },
-                authenticationType: "jwt"
-            );
+            var httpContext = _httpContextAccessor.HttpContext;
 
-            var user = new ClaimsPrincipal(identity);
+            var user = httpContext?.User
+                       ?? new ClaimsPrincipal(new ClaimsIdentity());
 
             NotifyAuthenticationStateChanged(
                 Task.FromResult(new AuthenticationState(user))
-            );
-        }
-
-        // Called on logout
-        public void MarkUserAsLoggedOut()
-        {
-            var anonymous = new ClaimsPrincipal(new ClaimsIdentity());
-
-            NotifyAuthenticationStateChanged(
-                Task.FromResult(new AuthenticationState(anonymous))
             );
         }
     }
