@@ -1,11 +1,31 @@
-﻿using MyCRM.Application.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using MyCRM.Application.DTOs;
+using MyCRM.Application.Interfaces;
 
 namespace MyCRM.Infrastructure.Persistence;
 
 public sealed class UserRepository : IUserRepository
 {
-    public int? ValidateCredentials(string username, string password)
+    private readonly MyCrmDbContext _dbContext;
+
+    public UserRepository(MyCrmDbContext dbContext)
     {
-        return 1;
+        _dbContext = dbContext;
     }
+    public AuthenticatedUserDto? ValidateCredentials(string username, string password)
+    {
+        var user = _dbContext.Users.SingleOrDefault(u => u.UserName == username && u.PasswordHash == password);
+
+        if (user == null)
+            return null;
+
+        return new AuthenticatedUserDto
+        {
+            UserId = user.UserId,
+            UserName = user.UserName,
+            RoleId = user.RoleId
+        };
+    }
+
+
 }

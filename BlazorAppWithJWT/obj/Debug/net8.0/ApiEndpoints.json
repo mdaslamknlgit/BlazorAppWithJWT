@@ -16,6 +16,11 @@
         "Name": "password",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "returnUrl",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

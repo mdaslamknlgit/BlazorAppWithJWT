@@ -386,6 +386,10 @@
           "password": {
             "type": "string",
             "nullable": true
+          },
+          "roleId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

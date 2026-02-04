@@ -4,5 +4,5 @@ namespace MyCRM.Application.Interfaces;
 
 public interface ITokenService
 {
-    TokenResult CreateTokens(int userId, string username);
+    TokenResult CreateTokens(int userId, string username,int roleId);
 }

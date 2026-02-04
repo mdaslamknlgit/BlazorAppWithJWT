@@ -32,8 +32,8 @@ builder.Services.AddHttpClient("ApiClient", client =>
 builder.Services.AddAuthentication("Cookies")
     .AddCookie("Cookies", options =>
     {
-        options.LoginPath = "/login";
-        options.AccessDeniedPath = "/login";
+        options.LoginPath = "/logina";
+        options.AccessDeniedPath = "/logina";
     });
 
 builder.Services.AddAuthorization();

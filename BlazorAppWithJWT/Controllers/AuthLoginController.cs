@@ -19,9 +19,9 @@ namespace BlazorAppWithJWT.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login(
-            [FromForm] string username,
-            [FromForm] string password)
+        [IgnoreAntiforgeryToken]
+        [Consumes("application/x-www-form-urlencoded")]
+        public async Task<IActionResult> Login([FromForm] string username, [FromForm] string password, [FromForm] string? returnUrl)
         {
             var client = _httpClientFactory.CreateClient();
 
@@ -69,8 +69,14 @@ namespace BlazorAppWithJWT.Controllers
                     Path = "/"
                 });
 
+            //var returnUrl = Navigation.ToBaseRelativePath(Navigation.Uri);
+
+            //Navigation.NavigateTo($"/auth/login?returnUrl=/{returnUrl}", true);
+
             // 4. Redirect to home
-            return LocalRedirect("/");
+            returnUrl ??= "/";
+            return LocalRedirect(returnUrl);
+            //return LocalRedirect("/");
         }
 
         [HttpGet("logout")]

@@ -120,3 +120,4 @@ D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.AppHost\obj\Debug\net8.
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.AppHost\obj\Debug\net8.0\BlazorAppWithJWT.AppHost.genruntimeconfig.cache
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.AppHost\obj\Debug\net8.0\ref\BlazorAppWithJWT.AppHost.dll
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.AppHost\obj\Debug\net8.0\Aspire\references\MyCRM_Api.ProjectMetadata.g.cs
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.AppHost\obj\Debug\net8.0\BlazorAppWithJWT.AppHost.sourcelink.json

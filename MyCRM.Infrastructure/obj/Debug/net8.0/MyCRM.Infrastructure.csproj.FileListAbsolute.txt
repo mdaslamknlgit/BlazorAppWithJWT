@@ -32,3 +32,4 @@ D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Infrastructure\obj\Debug\net8.0\My
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Infrastructure\obj\Debug\net8.0\refint\MyCRM.Infrastructure.dll
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Infrastructure\obj\Debug\net8.0\MyCRM.Infrastructure.pdb
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Infrastructure\obj\Debug\net8.0\ref\MyCRM.Infrastructure.dll
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Infrastructure\obj\Debug\net8.0\MyCRM.Infrastructure.sourcelink.json

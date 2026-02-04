@@ -10,3 +10,4 @@ D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Deb
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\refint\BlazorAppWithJWT.ServiceDefaults.dll
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\BlazorAppWithJWT.ServiceDefaults.pdb
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\ref\BlazorAppWithJWT.ServiceDefaults.dll
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\BlazorAppWithJWT.ServiceDefaults\obj\Debug\net8.0\BlazorAppWithJWT.ServiceDefaults.sourcelink.json

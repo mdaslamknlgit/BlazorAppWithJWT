@@ -20,3 +20,4 @@ D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Domain\obj\Debug\net8.0\MyCRM.Doma
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Domain\obj\Debug\net8.0\refint\MyCRM.Domain.dll
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Domain\obj\Debug\net8.0\MyCRM.Domain.pdb
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Domain\obj\Debug\net8.0\ref\MyCRM.Domain.dll
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Domain\obj\Debug\net8.0\MyCRM.Domain.sourcelink.json

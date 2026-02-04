@@ -1,6 +1,8 @@
-﻿namespace MyCRM.Application.Interfaces;
+﻿using MyCRM.Application.DTOs;
+
+namespace MyCRM.Application.Interfaces;
 
 public interface IUserRepository
 {
-    int? ValidateCredentials(string username, string password);
+    public AuthenticatedUserDto? ValidateCredentials(string username,string password);
 }

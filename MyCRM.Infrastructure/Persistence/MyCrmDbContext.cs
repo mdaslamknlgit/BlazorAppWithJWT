@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyCRM.Domain.Contacts;
+using MyCRM.Domain.Users;
 using System.Collections.Generic;
 
 namespace MyCRM.Infrastructure.Persistence;
@@ -12,4 +13,6 @@ public sealed class MyCrmDbContext : DbContext
     }
 
     public DbSet<Contact> Contacts => Set<Contact>();
+
+    public DbSet<User> Users => Set<User>();
 }

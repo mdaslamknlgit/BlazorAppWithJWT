@@ -17,7 +17,7 @@ public sealed class TokenService : ITokenService
         _configuration = configuration;
     }
 
-    public TokenResult CreateTokens(int userId, string username)
+    public TokenResult CreateTokens(int userId, string username,int roleId)
     {
         var key = new SymmetricSecurityKey(
             Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
@@ -32,6 +32,7 @@ public sealed class TokenService : ITokenService
         var claims = new[]
         {
             new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),
+            new Claim("roleid",roleId.ToString()),
             new Claim(JwtRegisteredClaimNames.UniqueName, username)
         };
 

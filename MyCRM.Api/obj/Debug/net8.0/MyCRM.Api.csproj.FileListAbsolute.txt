@@ -142,7 +142,6 @@ D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\MyCRM.Api.Gen
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\MyCRM.Api.AssemblyInfoInputs.cache
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\MyCRM.Api.AssemblyInfo.cs
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\MyCRM.Api.csproj.CoreCompileInputs.cache
-D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\MyCRM.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\MyCRM.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
@@ -160,3 +159,4 @@ D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\refint\MyCRM.
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\MyCRM.Api.pdb
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\MyCRM.Api.genruntimeconfig.cache
 D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\ref\MyCRM.Api.dll
+D:\MdAslam\Blazor\Code\BlazorAppWithJWT\MyCRM.Api\obj\Debug\net8.0\MyCRM.Api.sourcelink.json

@@ -17,18 +17,18 @@ public sealed class AuthService : IAuthService
 
     public async Task<AuthResult> LoginAsync(LoginRequest request)
     {
-        var userId = _unitOfWork.Users
-            .ValidateCredentials(request.Username, request.Password);
+        var userDetails = _unitOfWork.Users.ValidateCredentials(request.Username, request.Password);
 
-        if (userId is null)
+        if (userDetails is null)
             throw new UnauthorizedAccessException();
 
-        var tokenResult =
-            _tokenService.CreateTokens(userId.Value, request.Username);
+        var userId = userDetails.UserId;
+
+        var tokenResult = _tokenService.CreateTokens(userId, userDetails.UserName , userDetails.RoleId );
 
         _unitOfWork.RefreshTokens.Add(
             tokenResult.RefreshToken,
-            userId.Value,
+            userId,
             tokenResult.AccessTokenExpiresAt);
 
         await _unitOfWork.CommitAsync();
@@ -51,7 +51,7 @@ public sealed class AuthService : IAuthService
         _unitOfWork.RefreshTokens.Revoke(refreshToken);
 
         var tokenResult =
-            _tokenService.CreateTokens(0, string.Empty);
+            _tokenService.CreateTokens(0, string.Empty,0);
 
         _unitOfWork.RefreshTokens.Add(
             tokenResult.RefreshToken,
